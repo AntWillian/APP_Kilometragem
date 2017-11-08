@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/verDados"
+        android:title="Kilometros por mes"/>
+
+    <item android:id="@+id/verDadoskm"
+        android:title="Ganhos por mes"/>
+
+</menu>

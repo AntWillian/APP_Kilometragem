@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.app.app.MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro Km"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="20dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#dbdbdb"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/spiner"
+        android:gravity="center"
+        >
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/txtKilometragen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="0.07"
+        android:background="#d6d7d8"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="INSERIR"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:onClick="btnSalvar"/>
+
+</LinearLayout>
